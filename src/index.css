@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+  background: linear-gradient(45deg, #57003f 0%,#f57453 100%);
+  font-family: 'Ubuntu';
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,55 @@
+.container {
+    background: rgba(56, 4, 40, .9);
+    min-height: calc(100vh - 25px);
+    padding-top: 5px;
+    font-family: 'Ubuntu mono';
+}
+
+.user {
+    color: #87d441;
+}
+
+.location {
+    color: #6d85a9;
+}
+
+.dollar {
+    color: #ddd;
+}
+
+.command {
+    margin-left: 5px;
+    color: #ddd;
+}
+
+.command_input {
+    margin-left: 5px;
+    width: 700px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-family: monospace;
+    cursor: text;
+    min-height: 20px;
+    caret-color: #ddd;
+    color: #ddd;
+}
+
+.command_input:focus {
+    outline: none;
+}
+
+.prompt {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+}
+
+.prompt_output {
+    color: #ddd;
+    font-family: 'Ubuntu mono';
+}
+
+.output_link {
+    color: #6d85a9;
+}
